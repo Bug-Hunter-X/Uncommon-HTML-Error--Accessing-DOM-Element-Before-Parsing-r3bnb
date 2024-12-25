@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+
+  <script>
+    //Using DOMContentLoaded to make sure the document is parsed
+    document.addEventListener('DOMContentLoaded', function() {
+      let myDiv = document.getElementById("myDiv");
+      myDiv.innerHTML = "This text will show";
+    });
+  </script>
+</body>
+</html>
