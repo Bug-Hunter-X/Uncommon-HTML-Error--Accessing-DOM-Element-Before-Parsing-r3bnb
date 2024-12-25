@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon HTML error related to accessing a DOM element before the element is fully parsed by the browser. The error occurs when the script attempts to interact with the 'myDiv' element before it exists in the DOM.  The solution involves using DOMContentLoaded to ensure the document is fully parsed before running the script.
